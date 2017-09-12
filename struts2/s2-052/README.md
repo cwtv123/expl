@@ -21,3 +21,8 @@ Windows下关键字为：
 Mac下关键字为：
 
 <command><string>/Applications/Calculator.app/Contents/MacOS/Calculator</string></command>
+
+
+
+
+
