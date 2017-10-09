@@ -32,9 +32,10 @@ Debian GNU/Linux 9 \n \l
 </body>
 </html>
 ```
-* 参考：
-Apache Struts是美国阿帕奇（Apache）软件基金会负责维护的一个开源项目，是一套用于创建企业级Java Web应用的开源MVC框架。
+
+* 参考：Apache Struts是美国阿帕奇（Apache）软件基金会负责维护的一个开源项目，是一套用于创建企业级Java Web应用的开源MVC框架。
 https://struts.apache.org/docs/security-bulletins.html
+
 http://www.freebuf.com/vuls/128668.html
 
 
