@@ -1,6 +1,5 @@
-# Vulhub - Some Docker-Compose files for vulnerabilities environment
-
-Vulhub是一个面向大众的开源漏洞靶场，无需docker知识，简单执行两条命令即可编译、运行一个完整的漏洞靶场镜像。
+# Expl
+漏洞测试环境；该环境借鉴git@github.com:phith0n/vulhub.git。
 
 在ubuntu16.04下安装docker/docker-compose:
 
@@ -24,8 +23,8 @@ pip install docker-compose
 
 ```bash
 # 拉取项目
-git clone git@github.com:phith0n/vulhub.git
-cd vulhub
+git clone https://github.com/kk98kk0/expl.git
+cd expl
 
 # 进入某一个漏洞/环境的目录
 cd nginx_php5_mysql
