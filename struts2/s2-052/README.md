@@ -42,7 +42,8 @@ Mac下关键字为：
 
 <command><string>/Applications/Calculator.app/Contents/MacOS/Calculator</string></command>
 
-
+## 参考
+* https://thief.one/2017/09/06/1/
 
 
 
