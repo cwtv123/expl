@@ -43,4 +43,6 @@ Enter your name here:<br/>
     
 # 参考
 * https://cwiki.apache.org/confluence/display/WW/Security+Bulletins
+* https://struts.apache.org/docs/s2-053.html
 * https://github.com/Medicean/VulApps/tree/master/s/struts2/s2-053
+* http://www.freebuf.com/vuls/147735.html
