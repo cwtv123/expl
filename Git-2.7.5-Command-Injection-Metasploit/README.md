@@ -14,5 +14,5 @@
 # 测试环境
 Start GitLab using:
 
-docker-compose up
+docker-compose up -d
 
