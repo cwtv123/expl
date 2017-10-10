@@ -1,5 +1,6 @@
 ##  S2-045（CVE-2017-5638）
 https://cwiki.apache.org/confluence/display/WW/Security+Bulletins
+
 受影响：Struts 2.3.5 - Struts 2.3.31, Struts 2.5 - Struts 2.5.10
 
 RCE远程代码执行漏洞，基于Jakarta Multipart解析器进行文件上传时，利用漏洞可进行远程代码执行。
@@ -14,6 +15,7 @@ docker-compose up -d
 
 ## POC
 s2-045-poc.py 中修改cmd值，执行任意命令
+
 (#cmd='echo struts2-045;cat /etc/issue')
 
 ```
@@ -35,10 +37,10 @@ Debian GNU/Linux 9 \n \l
 ```
 
 ## 参考：
-*Apache Struts是美国阿帕奇（Apache）软件基金会负责维护的一个开源项目，是一套用于创建企业级Java Web应用的开源MVC框架。
+* Apache Struts是美国阿帕奇（Apache）软件基金会负责维护的一个开源项目，是一套用于创建企业级Java Web应用的开源MVC框架。
 
-*https://struts.apache.org/docs/security-bulletins.html
+* https://struts.apache.org/docs/security-bulletins.html
 
-*http://www.freebuf.com/vuls/128668.html
+* http://www.freebuf.com/vuls/128668.html
 
 
