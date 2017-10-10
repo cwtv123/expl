@@ -27,6 +27,7 @@ Tue Oct 10 07:52:54 UTC 2017
 
 ## 期望结果
 1、期望在/tmp/目录下创建vuln文件，证明命令被执行。
+
 2、/usr/bin/ping *.*.*.*  命令执行ping，通过docker宿主机tcpdump -ni br-cd0dcca0f917 抓包证明命令被执行。
 
 docker环境下touch命令：
