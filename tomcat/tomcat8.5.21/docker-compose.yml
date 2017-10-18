@@ -1,0 +1,8 @@
+version: '2'
+services:
+ tomcat8.5.21:
+   image: tomcat:8.5.21
+   volumes:
+    - ./web.xml:/usr/local/tomcat/conf/web.xml
+   ports:
+    - "8080:8080"
